@@ -10,7 +10,7 @@ actions:
     link: /en/guide/get-started
     type: primary
 
-  - text: What's Pokbrin?
+  - text: Pokbrin's story
     link: /en/guide/what-is-pokbrin
 
 features:
