@@ -9,16 +9,28 @@ export const zhSidebar = sidebar({
   ],
   "/functions/": [
     {
-      text: "Array",
+      text: "数组",
       prefix: "array/",
       collapsable: true,
       children: "structure"
     },
     {
-      text: "String",
+      text: "字符串",
       prefix: "string/",
       collapsable: true,
       children: "structure"
-    }
+    },
+    {
+      text: "校验器",
+      prefix: "validator/",
+      collapsable: true,
+      children: "structure"
+    },
+    {
+      text: "高阶函数",
+      prefix: "function/",
+      collapsable: true,
+      children: "structure"
+    },
   ]
 });

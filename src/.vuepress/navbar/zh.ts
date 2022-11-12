@@ -20,13 +20,21 @@ export const zhNavbar = navbar([
     prefix: "/functions/",
     children: [
       {
-        text: "Array",
-        link: "array/castArray"
+        text: "数组",
+        link: "array/compareArrays"
       },
       {
-        text: "String",
+        text: "字符串",
         link: "string/capitalize"
-      }
+      },
+      {
+        text: "校验器",
+        link: "validator/isWeekend"
+      },
+      {
+        text: "高阶函数",
+        link: "function/boxHandler"
+      },
     ]
   },
 ]);

@@ -25,7 +25,15 @@ export const enNavbar = navbar([
       {
         text: "String",
         link: "string/capitalize"
-      }
+      },
+      {
+        text: "Validator",
+        link: "validator/isWeekend"
+      },
+      {
+        text: "Advanced Functions",
+        link: "function/boxHandler"
+      },
     ]
   },
 ]);

@@ -3,9 +3,7 @@ title: 首字母大写
 shortTitle: capitalize
 order: 1
 pageInfo:
-  - Category
-category:
-  - 字符串
+  - tag
 ---
 
 **将字符串的第一个英文字母转换为大写。**
@@ -36,10 +34,10 @@ const capitalize = (str: string): string => str.replace(/^([a-z])/, (first) => f
 
 :::
 
-| 参数 | 类型 | 说明 |
-| ---- | ---- | ---- |
-| str | String | 源字符串 |
+| 参数 | 类型 | 是否必填 | 默认值 | 说明 |
+| :---: | :---: | :---: | :---: | :---: |
+| str | String | 是 | ---- | 源字符串 |
 
 | 返回值类型 | 说明 |
-| -------- | ---- |
+| :---: | :---: |
 | String | 首字母大写的字符串 |
