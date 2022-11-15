@@ -21,7 +21,7 @@ export const zhNavbar = navbar([
     children: [
       {
         text: "数组",
-        link: "array/compareArrays"
+        link: "array/isEqual"
       },
       {
         text: "字符串",
@@ -34,6 +34,10 @@ export const zhNavbar = navbar([
       {
         text: "高阶函数",
         link: "function/boxHandler"
+      },
+      {
+        text: "杂项",
+        link: "misc/getType"
       },
     ]
   },

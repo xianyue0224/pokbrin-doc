@@ -4,7 +4,7 @@ icon: home
 title: 主页
 heroImage: /logo.svg
 heroText: Pokbrin
-tagline: 一个使用工具函数库，每个函数都有JS和TS两个版本。
+tagline: 一个实用工具函数库，每个函数都有JS和TS两个版本。
 actions:
   - text: 快速上手 💡
     link: /guide/get-started

@@ -32,5 +32,11 @@ export const zhSidebar = sidebar({
       collapsable: true,
       children: "structure"
     },
+    {
+      text: "杂项",
+      prefix: "misc/",
+      collapsable: true,
+      children: "structure"
+    },
   ]
 });
